@@ -1,0 +1,13 @@
+{
+  "name": "lab-m01-maintenance-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible offline rule checks for the LAB-M01 maintenance demonstrator",
+  "scripts": {
+    "test": "node tests/workshop.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "UNLICENSED"
+}

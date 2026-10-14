@@ -1,0 +1,22 @@
+{
+  "scope": "Private evidence hashes for internal correlation, not independent public attestation",
+  "core_sha256": "3fb8cc6257d8c104fae366366db3e5c255f2ac5717fa2aa485e4664241db8333",
+  "private_evidence": [
+    {
+      "label": "private-baseline-evidence-1",
+      "sha256": "452f9385e59c91209965450e8b21610c28624ebac80de00d1a6f43fef5edd411"
+    },
+    {
+      "label": "private-baseline-evidence-2",
+      "sha256": "932a2846687f586a209aa7e574cb72e4c047bdca6c8ceaa4f762f7c641725aa6"
+    },
+    {
+      "label": "private-baseline-evidence-3",
+      "sha256": "69391c96f95ee3ee77600814ddcdbf83502f54971c620d3ac5a92ce26dd10b8c"
+    },
+    {
+      "label": "private-baseline-evidence-4",
+      "sha256": "4b5c4b27504abdc5dd3a6712454940cc4b303bdfe1e702ef447e5185f96b7df3"
+    }
+  ]
+}

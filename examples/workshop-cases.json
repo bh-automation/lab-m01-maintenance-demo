@@ -1,0 +1,360 @@
+[
+  {
+    "id": "LAB-M01-01",
+    "number": 1,
+    "kind": "A",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN01",
+      "submittedAt": "2026-10-16T08:00:00.000Z",
+      "artikel_id": "DEMO-V05",
+      "menge": 3,
+      "foto": {
+        "name": "DEMO_FOTO.png",
+        "mime": "image/png",
+        "groesse": "31843 B",
+        "bytes": 31843,
+        "binary_verified": true
+      }
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 6,
+      "after": 3,
+      "warning": "OFFEN",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-02",
+    "number": 2,
+    "kind": "B",
+    "role": "DEMO-Lagerverantwortliche/r",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN02",
+      "submittedAt": "2026-10-16T08:03:00.000Z",
+      "artikel_id": "DEMO-V05",
+      "menge": 3,
+      "lieferschein_demo": "DEMO-LS-1502",
+      "ware_geprueft": true,
+      "buchung_bestaetigt": true
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 3,
+      "after": 6,
+      "warning": "RESET",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-03",
+    "number": 3,
+    "kind": "C",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN03",
+      "submittedAt": "2026-10-16T08:06:00.000Z",
+      "einfuellstelle_id": "ZS-01",
+      "schmierstoff_id_angezeigt": "DEMO-ZS-01",
+      "bestaetigung_gebinde": true,
+      "bestaetigung_einfuellstelle": true,
+      "bestaetigung_wiederbetrieb": true
+    },
+    "expected": {
+      "status": "DOKUMENTIERT",
+      "before": null,
+      "after": null,
+      "warning": "KEINE",
+      "mail": true
+    },
+    "local_result": "DOKUMENTIERT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-04",
+    "number": 4,
+    "kind": "A",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN04",
+      "submittedAt": "2026-10-16T08:09:00.000Z",
+      "artikel_id": "DEMO-V01",
+      "menge": 4,
+      "foto": {
+        "name": "DEMO_FOTO.png",
+        "mime": "image/png",
+        "groesse": "31843 B",
+        "bytes": 31843,
+        "binary_verified": true
+      }
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 10,
+      "after": 6,
+      "warning": "OFFEN",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-05",
+    "number": 5,
+    "kind": "B",
+    "role": "DEMO-Lagerverantwortliche/r",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN05",
+      "submittedAt": "2026-10-16T08:12:00.000Z",
+      "artikel_id": "DEMO-V01",
+      "menge": 4,
+      "lieferschein_demo": "DEMO-LS-1505",
+      "ware_geprueft": true,
+      "buchung_bestaetigt": true
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 6,
+      "after": 10,
+      "warning": "RESET",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-06",
+    "number": 6,
+    "kind": "C",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN06",
+      "submittedAt": "2026-10-16T08:15:00.000Z",
+      "einfuellstelle_id": "SP-01",
+      "schmierstoff_id_angezeigt": "DEMO-SP-01",
+      "bestaetigung_gebinde": true,
+      "bestaetigung_einfuellstelle": true,
+      "bestaetigung_wiederbetrieb": true
+    },
+    "expected": {
+      "status": "DOKUMENTIERT",
+      "before": null,
+      "after": null,
+      "warning": "KEINE",
+      "mail": true
+    },
+    "local_result": "DOKUMENTIERT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-07",
+    "number": 7,
+    "kind": "A",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN07",
+      "submittedAt": "2026-10-16T08:18:00.000Z",
+      "artikel_id": "DEMO-V02",
+      "menge": 4,
+      "foto": {
+        "name": "DEMO_FOTO.png",
+        "mime": "image/png",
+        "groesse": "31843 B",
+        "bytes": 31843,
+        "binary_verified": true
+      }
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 8,
+      "after": 4,
+      "warning": "OFFEN",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-08",
+    "number": 8,
+    "kind": "B",
+    "role": "DEMO-Lagerverantwortliche/r",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN08",
+      "submittedAt": "2026-10-16T08:21:00.000Z",
+      "artikel_id": "DEMO-V02",
+      "menge": 4,
+      "lieferschein_demo": "DEMO-LS-1508",
+      "ware_geprueft": true,
+      "buchung_bestaetigt": true
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 4,
+      "after": 8,
+      "warning": "RESET",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-09",
+    "number": 9,
+    "kind": "C",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN09",
+      "submittedAt": "2026-10-16T08:24:00.000Z",
+      "einfuellstelle_id": "GT-01",
+      "schmierstoff_id_angezeigt": "DEMO-GT-01",
+      "bestaetigung_gebinde": true,
+      "bestaetigung_einfuellstelle": true,
+      "bestaetigung_wiederbetrieb": true
+    },
+    "expected": {
+      "status": "DOKUMENTIERT",
+      "before": null,
+      "after": null,
+      "warning": "KEINE",
+      "mail": true
+    },
+    "local_result": "DOKUMENTIERT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-10",
+    "number": 10,
+    "kind": "A",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN10",
+      "submittedAt": "2026-10-16T08:27:00.000Z",
+      "artikel_id": "DEMO-V03",
+      "menge": 10,
+      "foto": {
+        "name": "DEMO_FOTO.png",
+        "mime": "image/png",
+        "groesse": "31843 B",
+        "bytes": 31843,
+        "binary_verified": true
+      }
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 20,
+      "after": 10,
+      "warning": "OFFEN",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-11",
+    "number": 11,
+    "kind": "B",
+    "role": "DEMO-Lagerverantwortliche/r",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN11",
+      "submittedAt": "2026-10-16T08:30:00.000Z",
+      "artikel_id": "DEMO-V03",
+      "menge": 10,
+      "lieferschein_demo": "DEMO-LS-1511",
+      "ware_geprueft": true,
+      "buchung_bestaetigt": true
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 10,
+      "after": 20,
+      "warning": "RESET",
+      "mail": true
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-12",
+    "number": 12,
+    "kind": "C",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN12",
+      "submittedAt": "2026-10-16T08:33:00.000Z",
+      "einfuellstelle_id": "ZS-01",
+      "schmierstoff_id_angezeigt": "DEMO-ZS-01",
+      "bestaetigung_gebinde": true,
+      "bestaetigung_einfuellstelle": true,
+      "bestaetigung_wiederbetrieb": true
+    },
+    "expected": {
+      "status": "DOKUMENTIERT",
+      "before": null,
+      "after": null,
+      "warning": "KEINE",
+      "mail": true
+    },
+    "local_result": "DOKUMENTIERT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  },
+  {
+    "id": "LAB-M01-13",
+    "number": 13,
+    "kind": "A",
+    "role": "DEMO-Mitarbeiter/in",
+    "input": {
+      "maschinen_id": "LAB-M01",
+      "kuerzel": "TN13",
+      "submittedAt": "2026-10-16T08:36:00.000Z",
+      "artikel_id": "DEMO-V04",
+      "menge": 2,
+      "foto": {
+        "name": "DEMO_FOTO.png",
+        "mime": "image/png",
+        "groesse": "31843 B",
+        "bytes": 31843,
+        "binary_verified": true
+      }
+    },
+    "expected": {
+      "status": "GEBUCHT",
+      "before": 12,
+      "after": 10,
+      "warning": "KEINE",
+      "mail": false
+    },
+    "local_result": "GEBUCHT",
+    "evidence_scope": "LOCAL_SEQUENCE_ONLY",
+    "live_execution_id": null
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "stamm": [
+    {
+      "maschinen_id": "LAB-M01",
+      "artikel_id": "DEMO-V01",
+      "bezeichnung_demo": "DEMO-Strahlduese",
+      "einheit": "Stk",
+      "startbestand": 10,
+      "meldebestand": 6,
+      "sicherheitsbestand": 3,
+      "zielbestand": 10,
+      "beschaffungslink_demo": "https://example.invalid/demo/DEMO-V01",
+      "warnstatus": null
+    },
+    {
+      "maschinen_id": "LAB-M01",
+      "artikel_id": "DEMO-V02",
+      "bezeichnung_demo": "DEMO-Strahlschlauch-Abschnitt",
+      "einheit": "Stk",
+      "startbestand": 8,
+      "meldebestand": 4,
+      "sicherheitsbestand": 2,
+      "zielbestand": 8,
+      "beschaffungslink_demo": "https://example.invalid/demo/DEMO-V02",
+      "warnstatus": null
+    },
+    {
+      "maschinen_id": "LAB-M01",
+      "artikel_id": "DEMO-V03",
+      "bezeichnung_demo": "DEMO-Strahlhandschuhpaar",
+      "einheit": "Stk",
+      "startbestand": 20,
+      "meldebestand": 10,
+      "sicherheitsbestand": 5,
+      "zielbestand": 20,
+      "beschaffungslink_demo": "https://example.invalid/demo/DEMO-V03",
+      "warnstatus": null
+    },
+    {
+      "maschinen_id": "LAB-M01",
+      "artikel_id": "DEMO-V04",
+      "bezeichnung_demo": "DEMO-Sichtscheiben-Schutzfolie",
+      "einheit": "Stk",
+      "startbestand": 12,
+      "meldebestand": 5,
+      "sicherheitsbestand": 2,
+      "zielbestand": 12,
+      "beschaffungslink_demo": "https://example.invalid/demo/DEMO-V04",
+      "warnstatus": null
+    },
+    {
+      "maschinen_id": "LAB-M01",
+      "artikel_id": "DEMO-V05",
+      "bezeichnung_demo": "DEMO-Prallplatte",
+      "einheit": "Stk",
+      "startbestand": 6,
+      "meldebestand": 3,
+      "sicherheitsbestand": 1,
+      "zielbestand": 6,
+      "beschaffungslink_demo": "https://example.invalid/demo/DEMO-V05",
+      "warnstatus": null
+    }
+  ],
+  "schmierStamm": [
+    {
+      "maschinen_id": "LAB-M01",
+      "einfuellstelle_id": "ZS-01",
+      "einfuellstelle_label": "Zentralschmierung",
+      "schmierstoff_id_demo": "DEMO-ZS-01",
+      "schmierstoff_vollbezeichnung_demo": "DEMO-Schmierstoff Zentralschmierung",
+      "hinweis_demo": "Fiktive Zuordnung - keine reale Oelspezifikation"
+    },
+    {
+      "maschinen_id": "LAB-M01",
+      "einfuellstelle_id": "SP-01",
+      "einfuellstelle_label": "Spindelschmierung",
+      "schmierstoff_id_demo": "DEMO-SP-01",
+      "schmierstoff_vollbezeichnung_demo": "DEMO-Schmierstoff Spindelschmierung",
+      "hinweis_demo": "Fiktive Zuordnung - keine reale Oelspezifikation"
+    },
+    {
+      "maschinen_id": "LAB-M01",
+      "einfuellstelle_id": "GT-01",
+      "einfuellstelle_label": "Getriebeschmierung",
+      "schmierstoff_id_demo": "DEMO-GT-01",
+      "schmierstoff_vollbezeichnung_demo": "DEMO-Schmierstoff Getriebeschmierung",
+      "hinweis_demo": "Fiktive Zuordnung - keine reale Oelspezifikation"
+    }
+  ],
+  "journal": [],
+  "warnungen": [],
+  "meldungen": [],
+  "konfig": {
+    "mail_aktiv": false
+  },
+  "zeitpunkt": "2026-10-16T10:00:00+02:00"
+}
